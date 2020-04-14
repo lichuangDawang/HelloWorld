@@ -7,9 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("/hello")
 
-    public static void main(String[] args) {
-        String jso = "{\"a\": \"Hello\", \"b\": \"World\"}";
-
+    public String hello(){
+        return "hello danjie";
     }
 
 
